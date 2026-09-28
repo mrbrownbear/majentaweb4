@@ -1,0 +1,27 @@
+{
+  "ready": true,
+  "deterministicReverse": true,
+  "reducedMotion": {
+    "pressed": "true",
+    "camera": [
+      -2.2,
+      6,
+      5.7
+    ]
+  },
+  "chapterNavigation": 3,
+  "layout": {
+    "overflow": false,
+    "loadingHidden": true,
+    "contact": "https://www.majentasolutions.com/contact-us",
+    "navItems": 6,
+    "model": {
+      "parts": 281,
+      "triangles": 250000,
+      "source": "Hyper3D Rodin",
+      "originalGeometryPreserved": true
+    }
+  },
+  "errors": [],
+  "failed": []
+}

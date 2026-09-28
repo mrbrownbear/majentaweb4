@@ -1,0 +1,12 @@
+MAJENTA — DIGITAL ENGINEERING IN MOTION
+
+1. Extract this ZIP.
+2. Open Open-Majenta.html in Chrome or Edge.
+3. Scroll to explore. Use the chapter navigation or motion toggle.
+
+No installation, API key or server is needed for that preview.
+
+For editing/deployment, read README.md.
+For tested behaviour and remaining fidelity limitations, read VALIDATION.md.
+
+This package is a runnable architectural experience, not a claim that all of the original photorealistic model requirements have been met.

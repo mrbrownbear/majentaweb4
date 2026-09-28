@@ -1,0 +1,721 @@
+Use this directly in Crea8 Worlds:
+
+```text
+Create a premium, cinematic, architecture led landing page for a brand called "Majenta".
+
+CORE EXPERIENCE
+
+The entire website should be built around one continuous, highly detailed 3D architectural transformation.
+
+The experience begins with an architectural blueprint.
+
+As the user scrolls, the blueprint gradually becomes a real building.
+
+The user should then travel through different architectural areas of that same building as they continue scrolling.
+
+At the end of the journey, the building should transform, deconstruct, or recompose into the word:
+
+MAJENTA
+
+This must feel like one uninterrupted cinematic sequence rather than separate webpage sections.
+
+The building is the website.
+
+Do not make a normal website with a 3D building floating behind HTML content.
+
+Build an authored architectural world where scrolling controls construction, camera position, lighting, materials, environment, typography, and spatial storytelling.
+
+Use a detailed production quality 3D architectural model created specifically for this experience.
+
+Do not use primitive boxes as the final building.
+
+The building should contain a proper facade, glazing, structural framing, floors, stairs, corridors, internal spaces, architectural detailing, realistic materials, furniture where appropriate, lighting fixtures, landscaping, and enough internal geometry to allow the camera to physically travel through it.
+
+Use Crea8 Worlds' full asset workflow.
+
+First design concept imagery for the architectural asset.
+
+Then generate the detailed 3D building through Hyper3D Rodin.
+
+The resulting model must have sufficient geometry and material separation for individual areas and architectural components to animate during the scroll journey.
+
+VISUAL DIRECTION
+
+Style:
+Contemporary luxury architecture
+Editorial architectural photography
+Premium property developer campaign
+Minimal Swiss inspired graphic design
+Architectural competition presentation
+Cinematic architectural film
+
+The overall look should feel sophisticated, precise and expensive.
+
+Avoid a futuristic gaming aesthetic.
+
+Avoid excessive neon.
+
+Avoid generic glowing particles.
+
+Avoid floating glass cards.
+
+Avoid random blobs.
+
+Avoid generic SaaS design.
+
+Avoid decorative 3D elements that do not belong to the architecture.
+
+The architecture itself should provide the spectacle.
+
+COLOUR LANGUAGE
+
+Use a controlled neutral architectural palette:
+
+warm architectural white
+soft concrete grey
+charcoal
+black
+brushed aluminium
+glass
+muted stone
+subtle timber accents
+
+Introduce a distinctive Majenta accent colour derived from magenta, but use it very selectively.
+
+The Majenta colour should appear primarily in:
+
+technical blueprint markings
+selected architectural details
+navigation markers
+light reflections
+small typography details
+the final MAJENTA word reveal
+
+It should never overwhelm the architecture.
+
+TYPOGRAPHY
+
+Use elegant contemporary grotesk typography.
+
+Typography should feel architectural and editorial.
+
+Large headings can behave like spatial graphic elements.
+
+Use oversized type sparingly.
+
+Keep copy minimal.
+
+Text should appear only when it contributes to the architectural journey.
+
+Avoid conventional section cards.
+
+Where possible, typography should appear integrated into the 3D environment through depth, masking, architectural alignment, clipping, projections, or spatial positioning.
+
+SCROLL MECHANISM
+
+Build the experience using:
+
+Three.js or React Three Fiber
+GSAP
+ScrollTrigger
+Lenis
+
+Scrolling must control a deterministic reversible cinematic timeline.
+
+Scrolling downward progresses construction and camera movement.
+
+Scrolling upward perfectly reverses the entire journey.
+
+No hard scene cuts unless deliberately motivated.
+
+The camera should continuously move through the same architectural world.
+
+Use approximately 800vh to 1200vh of scroll distance to give the architecture enough time to breathe.
+
+STORYBOARD
+
+ACT 01
+THE DRAWING
+
+The page begins almost completely white.
+
+The building does not exist yet.
+
+The camera looks down onto an architectural blueprint lying on a large drafting surface or appearing as a spatial architectural drawing.
+
+Fine dark blue technical lines begin revealing themselves.
+
+Show:
+
+floor plans
+structural grids
+measurement annotations
+elevation lines
+construction marks
+section lines
+architectural notes
+dimension arrows
+
+Lines should animate as though a technical drawing is being plotted.
+
+Use very subtle paper texture or drafting surface detail.
+
+Small editorial typography appears:
+
+MAJENTA
+
+ARCHITECTURE IN MOTION
+
+or similarly restrained copy.
+
+The drawing should feel authentic, not decorative.
+
+ACT 02
+THE PLAN BECOMES SPACE
+
+As scrolling continues, the 2D blueprint slowly gains depth.
+
+Walls begin extruding vertically from the plan.
+
+Columns emerge.
+
+Structural beams assemble.
+
+Floors gain thickness.
+
+Staircases form.
+
+The camera gradually changes from a top down orthographic feeling into a perspective architectural camera.
+
+Blueprint lines remain visible temporarily around the growing building.
+
+This transition should be extremely smooth.
+
+The visitor should clearly understand:
+
+drawing
+becomes
+structure.
+
+ACT 03
+STRUCTURAL ASSEMBLY
+
+Continue constructing the building.
+
+The camera slowly orbits while architectural systems assemble.
+
+Reveal:
+
+concrete slabs
+steel framing
+columns
+cores
+stairs
+facade supports
+roof geometry
+
+Components can rise into place with restrained mechanical precision.
+
+No explosive animations.
+
+Movement should feel engineered.
+
+Blueprint lines gradually fade as real materials appear.
+
+The environment transitions from blueprint white into a softly lit architectural studio atmosphere.
+
+ACT 04
+THE FACADE
+
+The camera reaches an exterior three quarter view.
+
+The building is now nearly complete.
+
+Glass facade systems slide into position.
+
+Window panels install sequentially.
+
+Metal frames lock into place.
+
+Balconies and architectural fins appear.
+
+Landscape elements emerge around the base.
+
+Lighting becomes more cinematic.
+
+Use early morning or late afternoon architectural light.
+
+Introduce reflections across glass and brushed metal.
+
+The building should now feel photorealistic and highly detailed.
+
+This is the first major hero moment.
+
+Use restrained text such as:
+
+DESIGNED FROM FIRST PRINCIPLES
+
+ACT 05
+APPROACH
+
+As the user scrolls, the camera begins moving toward the building.
+
+The scale should become increasingly apparent.
+
+Move past landscaping.
+
+Pass facade details close to the camera.
+
+Allow foreground architecture to briefly occlude the frame.
+
+Create parallax between:
+
+landscape
+facade
+structural elements
+interior spaces.
+
+The transition should feel like a Steadicam architectural film.
+
+ACT 06
+THE ENTRANCE
+
+The camera approaches the main entrance.
+
+Doors open or retract naturally.
+
+The camera passes through the threshold.
+
+Lighting transitions from exterior daylight into warmer architectural interior lighting.
+
+Use reflections on polished stone or concrete.
+
+Reveal a dramatic lobby.
+
+Possible content:
+
+MAJENTA
+SPACES DESIGNED AROUND PEOPLE
+
+Typography should feel embedded in the composition rather than sitting in a normal webpage container.
+
+ACT 07
+THE ATRIUM
+
+Move through a large double height atrium.
+
+This should be one of the strongest visual moments.
+
+Features may include:
+
+large staircase
+architectural lighting
+double height glazing
+sculptural structural elements
+vertical planting
+suspended fixtures
+mezzanine bridges
+
+The camera can rise slightly as the visitor scrolls.
+
+Allow light shafts to move subtly through the space.
+
+People are optional and should only be used as subtle scale references.
+
+ACT 08
+MATERIAL DETAIL
+
+Instead of immediately moving to another room, briefly slow the camera.
+
+Move close to architectural details.
+
+Reveal:
+
+stone texture
+timber grain
+glass reflections
+metal joints
+lighting fixtures
+fabric
+concrete
+
+This section should demonstrate craftsmanship.
+
+A restrained label may appear:
+
+MATERIAL
+LIGHT
+PROPORTION
+
+No conventional feature cards.
+
+ACT 09
+THE STAIRCASE
+
+Use the building's main staircase as a transition device.
+
+The camera travels upward.
+
+The user should feel spatial movement between floors.
+
+As the camera climbs, architecture passes around the lens.
+
+Use strong foreground framing.
+
+The staircase can curve, cantilever, or form a dramatic central architectural gesture.
+
+ACT 10
+THE WORKSPACE
+
+Enter another major area.
+
+For example:
+
+gallery
+office
+studio
+residential lounge
+creative workspace
+
+depending on the architectural language selected for Majenta.
+
+This area should feel distinct from the lobby.
+
+Use large windows overlooking the exterior environment.
+
+The camera travels through furniture and structural framing.
+
+Copy can reveal itself using architectural masking.
+
+Example:
+
+SPACES THAT ADAPT
+
+ACT 11
+THE COURTYARD
+
+Transition toward an internal courtyard or terrace.
+
+Move from enclosed architecture into open air.
+
+Introduce trees, planting, water or landscape elements.
+
+The camera should briefly breathe here.
+
+Slow the scroll response slightly.
+
+Use subtle atmospheric movement:
+
+leaves
+soft reflections
+moving sunlight
+gentle shadow movement
+
+This acts as a quiet moment in the experience.
+
+ACT 12
+THE SKY LEVEL
+
+Continue upward.
+
+The camera travels toward the upper levels.
+
+Pass through another architectural corridor.
+
+Move onto a rooftop terrace or high level viewing space.
+
+Reveal the entire building and surrounding environment.
+
+This should communicate scale.
+
+The camera can orbit slowly around the upper facade.
+
+ACT 13
+ARCHITECTURAL EXPLODED VIEW
+
+Now begin transitioning from physical architecture back toward architectural abstraction.
+
+Pull the camera away.
+
+Sections of the building subtly separate.
+
+Floors move apart vertically.
+
+Facade systems shift outward.
+
+Structural components become visible.
+
+Create an elegant exploded architectural diagram.
+
+Do not destroy the building violently.
+
+The movement should feel like a professional architectural visualization.
+
+Technical lines and blueprint annotations can reappear.
+
+ACT 14
+DECONSTRUCTION
+
+As the visitor approaches the final section, begin transforming the building into a graphic composition.
+
+Architectural elements separate further.
+
+Walls, slabs, facade panels, framing and structural lines begin aligning themselves into deliberate positions.
+
+The building should gradually stop reading as architecture.
+
+From the camera's changing angle, pieces begin forming letter shapes.
+
+The transformation should happen progressively across several scroll beats.
+
+ACT 15
+MAJENTA
+
+This is the final signature moment.
+
+The camera arrives at one exact composition.
+
+All architectural elements align to form:
+
+MAJENTA
+
+The letters should literally be constructed from geometry originating from the building.
+
+Possible approach:
+
+facade panels become letter surfaces
+structural beams become strokes
+glass elements become internal letter planes
+blueprint lines complete missing letter contours
+lighting reveals the final typography
+
+Do not simply fade the building away and display HTML text.
+
+The architecture itself must become the word.
+
+The transition must be visually understandable.
+
+The viewer should be able to watch pieces of the building physically becoming the letters.
+
+Once assembled, hold this composition for a moment.
+
+The environment simplifies.
+
+Use a refined architectural white or very dark background depending on which provides stronger contrast.
+
+The Majenta accent colour can finally become more prominent.
+
+FINAL FOOTER
+
+Immediately after the 3D MAJENTA transformation, transition into a minimal footer.
+
+Keep it extremely clean.
+
+Possible structure:
+
+MAJENTA
+
+Architecture
+Development
+Design
+
+Selected links
+
+Contact
+
+Small copyright
+
+The footer should feel like the calm conclusion of the architectural film.
+
+CAMERA LANGUAGE
+
+Treat every camera state like architectural cinematography.
+
+Avoid random orbiting.
+
+Use a carefully planned sequence of:
+
+orthographic top view
+perspective transition
+three quarter exterior
+facade approach
+threshold crossing
+interior dolly
+vertical stair movement
+corridor traversal
+courtyard reveal
+high level panorama
+architectural pullback
+exploded diagram view
+final typography alignment
+
+Use slow acceleration and deceleration.
+
+Avoid motion sickness.
+
+Camera paths must never clip through geometry accidentally.
+
+Foreground architecture can intentionally cross the camera for cinematic transitions.
+
+LIGHTING
+
+Lighting should evolve with the story.
+
+Blueprint phase:
+very soft neutral studio lighting
+
+Construction phase:
+clean directional architectural light
+
+Exterior:
+warm late afternoon or early morning sunlight
+
+Interior:
+warm practical architectural lighting combined with daylight
+
+Courtyard:
+soft natural daylight
+
+Final exploded sequence:
+controlled studio lighting
+
+Final Majenta logo:
+dramatic but minimal sculptural illumination
+
+Use PBR materials and physically plausible light relationships.
+
+Use ACES tone mapping.
+
+Use environment reflections carefully.
+
+MATERIALS
+
+Materials should be realistic and restrained.
+
+Concrete:
+subtle roughness and imperfection
+
+Glass:
+physically believable reflections and transmission
+
+Metal:
+brushed aluminium or dark anodized metal
+
+Stone:
+fine texture variation
+
+Timber:
+natural grain without excessive saturation
+
+Blueprint:
+thin emissive or graphic line treatment
+
+Avoid overly glossy plastic surfaces.
+
+INTERACTION DETAILS
+
+Scrolling should remain the main interaction.
+
+Optional subtle pointer response can affect:
+
+small camera parallax
+light reflections
+architectural blueprint cursor
+minor depth response
+
+Do not allow pointer controls to interfere with the scroll camera.
+
+Add a minimal scroll progress indicator inspired by architectural measurement markings.
+
+For example:
+
+01 DRAW
+02 BUILD
+03 ENTER
+04 EXPLORE
+05 ASCEND
+06 TRANSFORM
+
+This should remain visually quiet.
+
+TRANSITIONS
+
+Do not use basic fades between sections.
+
+Use architectural transitions such as:
+
+camera passing behind walls
+doorway reveals
+foreground occlusion
+changes in focal length
+material transitions
+lighting transitions
+blueprint lines becoming geometry
+geometry becoming typography
+
+Every transition should belong to the architectural concept.
+
+PERFORMANCE
+
+Despite the visual quality, maintain excellent performance.
+
+Use:
+
+GLB
+Meshopt or Draco where suitable
+compressed textures
+LOD
+instancing for repeated architecture
+shared materials
+adaptive DPR
+lazy loading of secondary assets
+frustum culling
+reasonable shadow resolution
+
+Desktop should retain the full experience.
+
+Mobile should use a recomposed camera path with reduced decorative geometry while preserving the same architectural narrative.
+
+Do not simply shrink the desktop composition.
+
+REDUCED MOTION
+
+Provide an elegant reduced motion mode.
+
+Instead of removing the story entirely, use fewer interpolated camera movements and clearer stepped architectural states.
+
+QUALITY REQUIREMENT
+
+The final experience should resemble a premium architectural campaign created by a top international architecture visualization studio.
+
+The user must clearly experience this narrative:
+
+BLUEPRINT
+to
+STRUCTURE
+to
+BUILDING
+to
+ARCHITECTURAL JOURNEY
+to
+EXPLODED ARCHITECTURE
+to
+MAJENTA
+
+The 3D building is the central asset and must be visually impressive enough to carry the entire experience.
+
+Prioritise:
+
+architectural model quality
+camera choreography
+materials
+lighting
+spatial composition
+smooth reversible scrolling
+
+over excessive special effects.
+
+The final impression should be that the visitor did not scroll through a website.
+
+They travelled through the creation of Majenta.
+```
